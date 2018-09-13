@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Counter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -24,11 +24,13 @@
             <li>The value of each crystal is hidden from you until you click on it.</li>
             <li>Each time when the game starts, the game will change the values of each crystal.</li>
         </ul>
-        <div id="copmuter-score">
+    </br>
+        <div class="copmuter-score">
             <h2>Target Score:
-                <span id="random number"></span>
+                <span id="random-number"></span>
             </h2>
         </div>
+    </br>
         <div class="wins-and-losses">
             <h2>Wins:
                 <span id="number-wins"></span>
@@ -39,16 +41,19 @@
         </div>
 
         <div class="gems">
-            <img src="" class="gem-image" id="blue" alt="Blue Gem"></div>
-            <img src="" class="gem-image" id="green" alt="Green Gem"></div>
-            <dimg src="" class="gem-image" id="red" alt="Red Gem"></dov>
-            <img src="" class="gem-image" id="yellow" alt="Yellow Gem"></div>
+            <img src="assets/images/yellow.png" class="gem-image" id="yellow" alt="Yellow Gem">
+            <img src="assets/images/blue.png" class="gem-image" id="blue" alt="Blue Gem">
+            <img src="assets/images/green.png" class="gem-image" id="green" alt="Green Gem">
+            <img src="assets/images/red.png" class="gem-image" id="red" alt="Red Gem">
+           
         </div>
         <div class ="user-total">
             <h2>Your total score is:
                 <span id="final-total"></span>
             </h2>
          </div>
-    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+     
 </body>
 </html>

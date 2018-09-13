@@ -1,0 +1,44 @@
+body{
+	background-image: url("../images/background.png")
+}
+div{
+	background-color: white;
+	margin: 10px;
+    width: 25%;
+    border: solid 2px antiquewhite;
+	padding: 10px;
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 50pt;
+}
+
+/* Specfic Elements*/
+div.header{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.computer-score, .wins-and-losses{
+	float: left;
+	width: 15%;
+    height: 60px;
+    font-weight: bold;
+}
+.user-total{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gem-image{
+	height: 50px;
+	margin: 5px;
+}
